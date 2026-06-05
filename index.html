@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mohana Priya G – Emerging AI & Data Science Practitioner, Python Developer, and Technical Trainer from Coimbatore, Tamil Nadu. 8.5 CGPA, 2 Internships, 100+ Students Trained." />
+  <meta name="keywords" content="Mohana Priya G, AI Developer, Data Science, Python, Generative AI, n8n, Agentic AI, Portfolio, Coimbatore, Tamil Nadu" />
+  <meta name="author" content="Mohana Priya G" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mohana Priya G | AI & Data Science Portfolio" />
+  <meta property="og:description" content="Emerging AI & Data Science practitioner with 2 internships, 8+ certifications, and technical bootcamp for 100+ students." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mohanapriyag.vercel.app" />
+  <meta property="og:image" content="assets/images/profile.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mohana Priya G | AI & Data Science Portfolio" />
+  <meta name="twitter:description" content="AI & Data Science student | Python Developer | Technical Trainer" />
+
+  <title>Mohana Priya G | AI & Data Science Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👩‍💻</text></svg>" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- AOS Animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mohana Priya G",
+    "jobTitle": "AI & Data Science Student",
+    "email": "mohanapriyag143@gmail.com",
+    "telephone": "+919366072931",
+    "url": "https://mohanapriyag.vercel.app",
+    "sameAs": ["https://linkedin.com/in/mohanapriya-g"],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Coimbatore",
+      "addressRegion": "Tamil Nadu",
+      "addressCountry": "IN"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Dr. SNS Rajalakshmi College of Arts & Science"
+    }
+  }
+  </script>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════
+     LOADING SCREEN
+═══════════════════════════════════════ -->
+<div id="loader" class="loader">
+  <div class="loader-content">
+    <div class="loader-logo">MPG</div>
+    <div class="loader-bar">
+      <div class="loader-progress"></div>
+    </div>
+    <p class="loader-text">Building Experience...</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     SCROLL PROGRESS BAR
+═══════════════════════════════════════ -->
+<div id="scrollProgress" class="scroll-progress"></div>
+
+<!-- ═══════════════════════════════════════
+     NAVIGATION
+═══════════════════════════════════════ -->
+<nav id="navbar" class="navbar">
+  <div class="nav-container">
+    <a href="#home" class="nav-logo" aria-label="Home">
+      <span class="logo-text">MPG</span><span class="logo-dot">.</span>
+    </a>
+
+    <div class="nav-menu" id="navMenu">
+      <ul class="nav-list">
+        <li><a href="#home"           class="nav-link active" id="nav-home">Home</a></li>
+        <li><a href="#about"          class="nav-link" id="nav-about">About</a></li>
+        <li><a href="#skills"         class="nav-link" id="nav-skills">Skills</a></li>
+        <li><a href="#projects"       class="nav-link" id="nav-projects">Projects</a></li>
+        <li><a href="#bootcamp"       class="nav-link" id="nav-bootcamp">Bootcamps</a></li>
+        <li><a href="#experience"     class="nav-link" id="nav-experience">Experience</a></li>
+        <li><a href="#education"      class="nav-link" id="nav-education">Education</a></li>
+        <li><a href="#certifications" class="nav-link" id="nav-certifications">Certifications</a></li>
+        <li><a href="#contact"        class="nav-link" id="nav-contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="nav-actions">
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle light/dark theme">
+        <i class="fas fa-sun" id="themeIcon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile overlay -->
+<div class="nav-overlay" id="navOverlay"></div>
+
+<!-- ═══════════════════════════════════════
+     HERO SECTION
+═══════════════════════════════════════ -->
+<section id="home" class="hero">
+  <div class="hero-bg">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+    <div class="hero-grid"></div>
+  </div>
+
+  <div class="hero-container">
+    <!-- Left Content -->
+    <div class="hero-content" data-aos="fade-right" data-aos-duration="900">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Open to Internship Opportunities
+      </div>
+
+      <h1 class="hero-name">
+        Hi, I'm <span class="gradient-text">Mohana Priya G</span>
+      </h1>
+
+      <div class="hero-title-wrapper">
+        <span class="hero-prefix">I'm a&nbsp;</span>
+        <span id="typedText" class="typed-text"></span>
+        <span class="cursor">|</span>
+      </div>
+
+      <p class="hero-tagline">
+        Emerging AI &amp; Data Science practitioner building real-world automation
+        pipelines, training the next generation of tech talent, and turning data
+        into impactful decisions.
+      </p>
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="stat-num">8.5</span>
+          <span class="stat-label">CGPA</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="hero-stat">
+          <span class="stat-num">100+</span>
+          <span class="stat-label">Students Trained</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="hero-stat">
+          <span class="stat-num">8+</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="hero-stat">
+          <span class="stat-num">2</span>
+          <span class="stat-label">Internships</span>
+        </div>
+      </div>
+
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary" id="heroViewProjects">
+          <i class="fas fa-rocket"></i> View Projects
+        </a>
+        <a href="#contact" class="btn btn-secondary" id="heroContactMe">
+          <i class="fas fa-envelope"></i> Contact Me
+        </a>
+        <a href="assets/resume.docx" class="btn btn-outline" download="MohanaPriyaG_Resume.docx" id="heroDownloadCV">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+      </div>
+
+      <div class="hero-social">
+        <a href="https://linkedin.com/in/mohanapriya-g" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:mohanapriyag143@gmail.com" class="social-link" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Right Visual -->
+    <div class="hero-visual" data-aos="fade-left" data-aos-duration="900">
+      <div class="profile-container">
+        <div class="profile-ring ring-1"></div>
+        <div class="profile-ring ring-2"></div>
+        <div class="profile-ring ring-3"></div>
+        <div class="profile-image-wrapper">
+          <img
+            src="assets/images/profile.jpg"
+            alt="Mohana Priya G – AI & Data Science Student"
+            class="profile-image"
+            loading="eager"
+          />
+        </div>
+        <div class="profile-badge profile-badge-1">
+          <i class="fab fa-python"></i><span>Python</span>
+        </div>
+        <div class="profile-badge profile-badge-2">
+          <i class="fas fa-brain"></i><span>AI / ML</span>
+        </div>
+        <div class="profile-badge profile-badge-3">
+          <i class="fas fa-chart-line"></i><span>Data Science</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+    <span>Scroll to explore</span>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     ABOUT SECTION
+═══════════════════════════════════════ -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-tag">Get to Know Me</span>
+      <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="about-grid">
+      <!-- Image Column -->
+      <div class="about-image-col" data-aos="fade-right" data-aos-delay="100">
+        <div class="about-image-frame">
+          <img
+            src="assets/images/profile.jpg"
+            alt="Mohana Priya G"
+            class="about-image"
+            loading="lazy"
+          />
+          <div class="about-image-decoration"></div>
+          <div class="about-exp-badge">
+            <span class="exp-num">3rd</span>
+            <span class="exp-label">Year Student<br/>2 Internships</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content Column -->
+      <div class="about-content-col" data-aos="fade-left" data-aos-delay="100">
+        <h3 class="about-greeting">Passionate AI &amp; Data Science Practitioner 🚀</h3>
+        <p class="about-text">
+          I'm <strong>Mohana Priya G</strong>, a B.Sc. Artificial Intelligence &amp; Data Science student
+          at Dr. SNS Rajalakshmi College of Arts &amp; Science, Coimbatore — maintaining a strong
+          <strong>8.5 CGPA</strong> while simultaneously completing industry internships and
+          earning 8+ professional certifications.
+        </p>
+        <p class="about-text">
+          What sets me apart is my ability to <strong>bridge theory and real-world application</strong>.
+          I've built Agentic AI automation pipelines using n8n, developed Text-to-Image generation
+          models, and <strong>led a technical bootcamp for 100+ students</strong> — achievements
+          that reflect a rare combination of technical depth and leadership in my
+          final year of undergraduate study.
+        </p>
+        <p class="about-text">
+          I'm not just a learner — I'm a <strong>creator, trainer, and problem solver</strong>.
+          My goal is to build AI systems that create real impact, and to inspire the next
+          generation of tech talent through hands-on mentoring.
+        </p>
+
+        <div class="about-info-grid">
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <span class="info-label">Location</span>
+              <span class="info-value">Coimbatore, Tamil Nadu</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+              <span class="info-label">Degree</span>
+              <span class="info-value">B.Sc. AI &amp; Data Science</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <span class="info-label">Email</span>
+              <span class="info-value">mohanapriyag143@gmail.com</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-briefcase"></i>
+            <div>
+              <span class="info-label">Status</span>
+              <span class="info-value status-badge">Open to Opportunities</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-cta">
+          <a href="#contact" class="btn btn-primary">
+            Let's Connect <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="assets/resume.docx" class="btn btn-outline" download="MohanaPriyaG_Resume.docx">
+            <i class="fas fa-file-word"></i> Download Resume
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SKILLS SECTION
+═══════════════════════════════════════ -->
+<section id="skills" class="section section-alt">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-tag">What I Know</span>
+      <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="skills-grid">
+
+      <!-- Programming Languages -->
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="50">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon"><i class="fas fa-code"></i></div>
+          <h3>Programming Languages</h3>
+        </div>
+        <div class="skill-bars">
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>Python (Advanced)</span><span>90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90" style="--accent-color:#4F46E5"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>HTML / CSS</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80" style="--accent-color:#06B6D4"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>C / C++ (Basic)</span><span>65%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="65" style="--accent-color:#8B5CF6"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>SQL</span><span>75%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="75" style="--accent-color:#F59E0B"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AI / ML Skills -->
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon" style="background:linear-gradient(135deg,#8B5CF6,#4F46E5)"><i class="fas fa-brain"></i></div>
+          <h3>AI / ML Skills</h3>
+        </div>
+        <div class="skill-bars">
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>Generative AI</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85" style="--accent-color:#8B5CF6"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>Agentic AI / n8n</span><span>82%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="82" style="--accent-color:#4F46E5"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>Prompt Engineering</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85" style="--accent-color:#06B6D4"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>scikit-learn / ML</span><span>70%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70" style="--accent-color:#10B981"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Science -->
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="150">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon" style="background:linear-gradient(135deg,#06B6D4,#0284C7)"><i class="fas fa-chart-bar"></i></div>
+          <h3>Data Science</h3>
+        </div>
+        <div class="skill-bars">
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>NumPy / Pandas</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85" style="--accent-color:#06B6D4"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>Matplotlib</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80" style="--accent-color:#F59E0B"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>Data Preprocessing</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80" style="--accent-color:#8B5CF6"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>Power BI</span><span>70%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70" style="--accent-color:#4F46E5"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools & Platforms -->
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon" style="background:linear-gradient(135deg,#10B981,#059669)"><i class="fas fa-tools"></i></div>
+          <h3>Tools &amp; Platforms</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag"><i class="fab fa-github"></i> Git / GitHub</span>
+          <span class="skill-tag"><i class="fas fa-cloud"></i> Google Colab</span>
+          <span class="skill-tag"><i class="fas fa-code"></i> VS Code</span>
+          <span class="skill-tag"><i class="fas fa-database"></i> Databricks</span>
+          <span class="skill-tag"><i class="fas fa-robot"></i> n8n</span>
+          <span class="skill-tag"><i class="fas fa-file-excel"></i> Excel / Power BI</span>
+          <span class="skill-tag"><i class="fas fa-eye"></i> Computer Vision</span>
+          <span class="skill-tag"><i class="fas fa-comments"></i> LLMs</span>
+        </div>
+      </div>
+
+      <!-- Cloud Platforms -->
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="250">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon" style="background:linear-gradient(135deg,#F59E0B,#EF4444)"><i class="fas fa-cloud"></i></div>
+          <h3>Cloud Platforms</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag"><i class="fab fa-google"></i> Google Cloud AI</span>
+          <span class="skill-tag"><i class="fab fa-microsoft"></i> Microsoft Azure</span>
+          <span class="skill-tag"><i class="fas fa-cube"></i> Oracle Cloud</span>
+          <span class="skill-tag"><i class="fas fa-fire"></i> Databricks SQL</span>
+          <span class="skill-tag"><i class="fas fa-infinity"></i> Gen AI APIs</span>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon" style="background:linear-gradient(135deg,#EC4899,#8B5CF6)"><i class="fas fa-users"></i></div>
+          <h3>Soft Skills</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag soft"><i class="fas fa-microphone"></i> Public Speaking</span>
+          <span class="skill-tag soft"><i class="fas fa-crown"></i> Leadership</span>
+          <span class="skill-tag soft"><i class="fas fa-puzzle-piece"></i> Problem Solving</span>
+          <span class="skill-tag soft"><i class="fas fa-lightbulb"></i> Logical Thinking</span>
+          <span class="skill-tag soft"><i class="fas fa-handshake"></i> Team Collaboration</span>
+          <span class="skill-tag soft"><i class="fas fa-chalkboard-teacher"></i> Mentoring</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     PROJECTS SECTION
+═══════════════════════════════════════ -->
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-tag">What I've Built</span>
+      <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card featured" data-aos="fade-up" data-aos-delay="50">
+        <div class="project-image">
+          <img src="assets/images/project-ai.png" alt="Agentic AI Automation System" loading="lazy" />
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" class="project-link" title="GitHub Repository" id="proj1Github"><i class="fab fa-github"></i></a>
+              <a href="#" class="project-link" title="Live Demo" id="proj1Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="project-status status-complete">Completed</div>
+        </div>
+        <div class="project-content">
+          <div class="project-number">01</div>
+          <h3 class="project-title">Agentic AI Automation System</h3>
+          <p class="project-description">
+            Designed and deployed a multi-step automation pipeline using n8n and AI agent
+            frameworks to automate repetitive workflows end-to-end. Integrated external APIs
+            and configured conditional logic nodes — demonstrated live to 100+ students at
+            an Agentic AI bootcamp.
+          </p>
+          <div class="project-problem">
+            <i class="fas fa-lightbulb"></i>
+            <span><strong>Problem Solved:</strong> Eliminated repetitive manual workflows through intelligent AI agents that work autonomously</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-badge python">Python</span>
+            <span class="tech-badge n8n">n8n</span>
+            <span class="tech-badge ai">AI Agents</span>
+            <span class="tech-badge api">APIs</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="150">
+        <div class="project-image">
+          <img src="assets/images/project-chatbot.png" alt="AI Learning Chatbot" loading="lazy" />
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" class="project-link" title="GitHub Repository" id="proj2Github"><i class="fab fa-github"></i></a>
+              <a href="#" class="project-link" title="Live Demo" id="proj2Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="project-status status-progress">In Progress</div>
+        </div>
+        <div class="project-content">
+          <div class="project-number">02</div>
+          <h3 class="project-title">AI Learning Chatbot</h3>
+          <p class="project-description">
+            Building a conversational AI chatbot to help students learn Data Science concepts
+            interactively. Features NLP-based intent recognition, context management, and
+            API-based LLM integration for intelligent, educational responses.
+          </p>
+          <div class="project-problem">
+            <i class="fas fa-lightbulb"></i>
+            <span><strong>Problem Solved:</strong> Making Data Science education interactive and accessible for peer learners via web</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-badge python">Python</span>
+            <span class="tech-badge nlp">NLP</span>
+            <span class="tech-badge ai">LLM</span>
+            <span class="tech-badge web">Web App</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="250">
+        <div class="project-image">
+          <img src="assets/images/project-auth.png" alt="Responsive Authentication UI" loading="lazy" />
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" class="project-link" title="GitHub Repository" id="proj3Github"><i class="fab fa-github"></i></a>
+              <a href="#" class="project-link" title="Live Demo" id="proj3Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="project-status status-complete">Completed</div>
+        </div>
+        <div class="project-content">
+          <div class="project-number">03</div>
+          <h3 class="project-title">Responsive Authentication UI</h3>
+          <p class="project-description">
+            Developed a fully responsive login interface with form validation, error handling,
+            and clean UI/UX design. Applied semantic HTML, CSS Flexbox best practices, and
+            modern web design principles for a professional authentication flow.
+          </p>
+          <div class="project-problem">
+            <i class="fas fa-lightbulb"></i>
+            <span><strong>Problem Solved:</strong> Clean, accessible authentication experience following modern UX standards</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-badge html">HTML</span>
+            <span class="tech-badge css">CSS</span>
+            <span class="tech-badge js">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     BOOTCAMP SECTION
+═══════════════════════════════════════ -->
+<section id="bootcamp" class="section section-alt">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-tag">Training &amp; Leadership</span>
+      <h2 class="section-title">Bootcamp &amp; <span class="gradient-text">Training</span></h2>
+      <div class="section-line"></div>
+      <p class="section-subtitle">Inspiring the next generation of AI &amp; tech talent</p>
+    </div>
+
+    <!-- Stats -->
+    <div class="bootcamp-stats" data-aos="fade-up" data-aos-delay="100">
+      <div class="bootcamp-stat-card">
+        <div class="bootcamp-stat-icon"><i class="fas fa-users"></i></div>
+        <span class="bootcamp-stat-num counter" data-target="100" data-suffix="+">0</span>
+        <div class="bootcamp-stat-label">Students Trained</div>
+      </div>
+      <div class="bootcamp-stat-card">
+        <div class="bootcamp-stat-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+        <span class="bootcamp-stat-num counter" data-target="3">0</span>
+        <div class="bootcamp-stat-label">Sessions Conducted</div>
+      </div>
+      <div class="bootcamp-stat-card">
+        <div class="bootcamp-stat-icon"><i class="fas fa-robot"></i></div>
+        <span class="bootcamp-stat-num">n8n</span>
+        <div class="bootcamp-stat-label">Core Technology</div>
+      </div>
+      <div class="bootcamp-stat-card">
+        <div class="bootcamp-stat-icon"><i class="fas fa-tv"></i></div>
+        <span class="bootcamp-stat-num">Live</span>
+        <div class="bootcamp-stat-label">Demo Delivered</div>
+      </div>
+    </div>
+
+    <!-- Highlight Card -->
+    <div class="bootcamp-highlight" data-aos="fade-up" data-aos-delay="150">
+      <div class="bootcamp-highlight-icon">
+        <i class="fas fa-graduation-cap"></i>
+      </div>
+      <div class="bootcamp-highlight-content">
+        <h3>Agentic AI Bootcamp — Student Organizer &amp; Lead Trainer</h3>
+        <p>
+          Organized and delivered a comprehensive <strong>Agentic AI Bootcamp for 100+ students</strong>,
+          covering AI agent design, automation workflows, and real-world n8n integrations.
+          Delivered live demonstrations of automation pipelines, guided students through
+          hands-on exercises, and explained complex AI concepts in an engaging and
+          accessible way for young learners.
+        </p>
+        <div class="bootcamp-topics">
+          <span class="topic-tag"><i class="fas fa-check"></i> AI Agent Design</span>
+          <span class="topic-tag"><i class="fas fa-check"></i> n8n Workflows</span>
+          <span class="topic-tag"><i class="fas fa-check"></i> Automation Pipelines</span>
+          <span class="topic-tag"><i class="fas fa-check"></i> API Integrations</span>
+          <span class="topic-tag"><i class="fas fa-check"></i> Live Demonstrations</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Photo Gallery -->
+    <div class="bootcamp-gallery" data-aos="fade-up" data-aos-delay="200">
+      <div class="gallery-item gallery-large">
+        <img src="assets/images/bootcamp2.jpg" alt="Mohana Priya G leading the Agentic AI Bootcamp session with students" loading="lazy" />
+        <div class="gallery-caption">
+          <i class="fas fa-microphone"></i>
+          <span>Leading the Agentic AI Bootcamp Session</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="assets/images/bootcamp1.jpg" alt="100+ students engaged in the bootcamp training" loading="lazy" />
+        <div class="gallery-caption">
+          <i class="fas fa-users"></i>
+          <span>100+ Students Engaged &amp; Learning</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="assets/images/bootcamp3.jpg" alt="n8n Workflow demonstration on projector" loading="lazy" />
+        <div class="gallery-caption">
+          <i class="fas fa-robot"></i>
+          <span>Live n8n Workflow Demo on Projector</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     EXPERIENCE SECTION
+═══════════════════════════════════════ -->
+<section id="experience" class="section">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-tag">My Journey</span>
+      <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="timeline">
+
+      <!-- Experience 1: ElevanceSkills (Recent) -->
+      <div class="timeline-item" data-aos="fade-right" data-aos-delay="50">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <div class="timeline-company">
+              <div class="company-logo-placeholder">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <div>
+                <h3 class="timeline-role">AI/ML Project Intern</h3>
+                <span class="timeline-company-name">ElevanceSkills
+                  <span class="company-type">&nbsp;· Online</span>
+                </span>
+              </div>
+            </div>
+            <div class="timeline-meta">
+              <span class="timeline-date"><i class="fas fa-calendar-alt"></i> May 2026 – Jun 2026</span>
+              <span class="timeline-badge internship">Internship</span>
+            </div>
+          </div>
+          <ul class="timeline-achievements">
+            <li>Built a <strong>Text-to-Image Generation pipeline</strong> using diffusion model concepts and Python; applied prompt engineering techniques to improve output quality and relevance</li>
+            <li>Completed real-world <strong>Data Science project tasks</strong> — data preprocessing, model integration, and results evaluation — consistently delivering within deadlines</li>
+            <li>Gained end-to-end experience across the full <strong>Data Science lifecycle</strong> using Python, Google Colab, and Generative AI APIs</li>
+          </ul>
+          <div class="timeline-skills">
+            <span class="tl-skill">Python</span>
+            <span class="tl-skill">Generative AI</span>
+            <span class="tl-skill">Diffusion Models</span>
+            <span class="tl-skill">Prompt Engineering</span>
+            <span class="tl-skill">Google Colab</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience 2: Gateway Software -->
+      <div class="timeline-item timeline-right" data-aos="fade-left" data-aos-delay="100">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <div class="timeline-company">
+              <div class="company-logo-placeholder gss">
+                <i class="fas fa-code"></i>
+              </div>
+              <div>
+                <h3 class="timeline-role">Python Development Intern</h3>
+                <span class="timeline-company-name">Gateway Software Solutions
+                  <span class="company-type">&nbsp;· Offline</span>
+                </span>
+              </div>
+            </div>
+            <div class="timeline-meta">
+              <span class="timeline-date"><i class="fas fa-calendar-alt"></i> May 2025 – Jun 2025</span>
+              <span class="timeline-badge internship">Internship</span>
+            </div>
+          </div>
+          <ul class="timeline-achievements">
+            <li>Advanced Python skills from fundamentals to advanced topics — <strong>OOP, file handling, and automation scripting</strong> — via a structured mentorship curriculum</li>
+            <li>Collaborated with senior developers on coding exercises and mini-projects, <strong>translating learning objectives into functional Python scripts</strong></li>
+            <li>Participated in code reviews and feedback sessions, developing <strong>professional coding habits</strong> and systematic debugging practices</li>
+          </ul>
+          <div class="timeline-skills">
+            <span class="tl-skill">Python</span>
+            <span class="tl-skill">OOP</span>
+            <span class="tl-skill">File Handling</span>
+            <span class="tl-skill">Automation</span>
+            <span class="tl-skill">Debugging</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Leadership -->
+      <div class="timeline-item" data-aos="fade-right" data-aos-delay="150">
+        <div class="timeline-dot leadership-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <div class="timeline-company">
+              <div class="company-logo-placeholder leadership">
+                <i class="fas fa-chalkboard-teacher"></i>
+              </div>
+              <div>
+                <h3 class="timeline-role">Bootcamp Organizer &amp; Lead Trainer</h3>
+                <span class="timeline-company-name">Dr. SNS Rajalakshmi College
+                  <span class="company-type">&nbsp;· Leadership</span>
+                </span>
+              </div>
+            </div>
+            <div class="timeline-meta">
+              <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2025</span>
+              <span class="timeline-badge leadership">Leadership</span>
+            </div>
+          </div>
+          <ul class="timeline-achievements">
+            <li>Organized and delivered an <strong>Agentic AI Bootcamp for 100+ students</strong>, covering AI agent design, automation workflows, and real-world n8n integrations</li>
+            <li>Delivered live system demonstrations, <strong>simplifying complex AI concepts</strong> for diverse student audiences including school students</li>
+            <li>Demonstrated exceptional <strong>public speaking, teaching, and leadership skills</strong> in a large group setting</li>
+          </ul>
+          <div class="timeline-skills">
+            <span class="tl-skill">Public Speaking</span>
+            <span class="tl-skill">Training</span>
+            <span class="tl-skill">n8n</span>
+            <span class="tl-skill">AI</span>
+            <span class="tl-skill">Leadership</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     EDUCATION SECTION
+═══════════════════════════════════════ -->
+<section id="education" class="section section-alt">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-tag">Academic Background</span>
+      <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="education-card" data-aos="fade-up" data-aos-delay="100">
+      <div class="edu-decoration"></div>
+      <div class="edu-icon"><i class="fas fa-university"></i></div>
+      <div class="edu-content">
+        <div class="edu-header">
+          <div>
+            <h3 class="edu-degree">B.Sc. Artificial Intelligence &amp; Data Science</h3>
+            <p class="edu-college">Dr. SNS Rajalakshmi College of Arts &amp; Science, Coimbatore</p>
+          </div>
+          <div class="edu-meta">
+            <span class="edu-year"><i class="fas fa-calendar-alt"></i> 2024 – 2027</span>
+            <div class="edu-cgpa">
+              <span class="cgpa-label">CGPA</span>
+              <span class="cgpa-value">8.5 / 10</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-highlights">
+          <div class="edu-highlight">
+            <i class="fas fa-trophy"></i>
+            <span>Completed 2 internships during B.Sc. degree (Final Year)</span>
+          </div>
+          <div class="edu-highlight">
+            <i class="fas fa-certificate"></i>
+            <span>8+ Industry Certifications earned</span>
+          </div>
+          <div class="edu-highlight">
+            <i class="fas fa-users"></i>
+            <span>Led Bootcamp for 100+ students</span>
+          </div>
+          <div class="edu-highlight">
+            <i class="fas fa-brain"></i>
+            <span>AI, ML &amp; Generative AI specialization</span>
+          </div>
+        </div>
+
+        <div class="edu-subjects">
+          <span class="subject-tag">Artificial Intelligence</span>
+          <span class="subject-tag">Data Science</span>
+          <span class="subject-tag">Machine Learning</span>
+          <span class="subject-tag">Python Programming</span>
+          <span class="subject-tag">Data Structures</span>
+          <span class="subject-tag">Statistics &amp; Probability</span>
+          <span class="subject-tag">Database Management</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     CERTIFICATIONS SECTION
+═══════════════════════════════════════ -->
+<section id="certifications" class="section">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-tag">Industry Recognition</span>
+      <h2 class="section-title">Certifications &amp; <span class="gradient-text">Achievements</span></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="cert-grid">
+
+      <div class="cert-card" data-aos="zoom-in" data-aos-delay="50">
+        <div class="cert-icon" style="background:linear-gradient(135deg,#FF6B35,#FF8C42)">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <div class="cert-content">
+          <h4>Data Science</h4>
+          <p>Analytics Vidhya</p>
+          <span class="cert-category">Data Science</span>
+        </div>
+        <div class="cert-badge"><i class="fas fa-check-circle"></i></div>
+      </div>
+
+      <div class="cert-card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="cert-icon" style="background:linear-gradient(135deg,#E8333C,#FF6B6B)">
+          <i class="fas fa-database"></i>
+        </div>
+        <div class="cert-content">
+          <h4>SQL Analytics &amp; Generative AI</h4>
+          <p>Databricks</p>
+          <span class="cert-category">Data Engineering</span>
+        </div>
+        <a href="assets/certificates/databricks.pdf" target="_blank" class="cert-view-btn" title="View Certificate">
+          <i class="fas fa-eye"></i>
+        </a>
+        <div class="cert-badge"><i class="fas fa-check-circle"></i></div>
+      </div>
+
+      <div class="cert-card" data-aos="zoom-in" data-aos-delay="150">
+        <div class="cert-icon" style="background:linear-gradient(135deg,#0078D4,#00BCF2)">
+          <i class="fab fa-microsoft"></i>
+        </div>
+        <div class="cert-content">
+          <h4>Computer Vision</h4>
+          <p>Microsoft</p>
+          <span class="cert-category">AI / ML</span>
+        </div>
+        <div class="cert-badge"><i class="fas fa-check-circle"></i></div>
+      </div>
+
+      <div class="cert-card" data-aos="zoom-in" data-aos-delay="200">
+        <div class="cert-icon" style="background:linear-gradient(135deg,#4285F4,#34A853)">
+          <i class="fab fa-google"></i>
+        </div>
+        <div class="cert-content">
+          <h4>Innovation with Google Cloud AI</h4>
+          <p>Google Cloud</p>
+          <span class="cert-category">Cloud AI</span>
+        </div>
+        <div class="cert-badge"><i class="fas fa-check-circle"></i></div>
+      </div>
+
+      <div class="cert-card" data-aos="zoom-in" data-aos-delay="250">
+        <div class="cert-icon" style="background:linear-gradient(135deg,#F80000,#FF6B35)">
+          <i class="fas fa-cloud"></i>
+        </div>
+        <div class="cert-content">
+          <h4>AI Foundations Associate</h4>
+          <p>Oracle</p>
+          <span class="cert-category">AI Foundations</span>
+        </div>
+        <div class="cert-badge"><i class="fas fa-check-circle"></i></div>
+      </div>
+
+      <div class="cert-card" data-aos="zoom-in" data-aos-delay="300">
+        <div class="cert-icon" style="background:linear-gradient(135deg,#4F46E5,#8B5CF6)">
+          <i class="fab fa-python"></i>
+        </div>
+        <div class="cert-content">
+          <h4>Python Programming</h4>
+          <p>ByteXL</p>
+          <span class="cert-category">Programming</span>
+        </div>
+        <div class="cert-badge"><i class="fas fa-check-circle"></i></div>
+      </div>
+
+      <div class="cert-card" data-aos="zoom-in" data-aos-delay="350">
+        <div class="cert-icon" style="background:linear-gradient(135deg,#06B6D4,#0284C7)">
+          <i class="fas fa-robot"></i>
+        </div>
+        <div class="cert-content">
+          <h4>Generative AI</h4>
+          <p>ElevanceSkills</p>
+          <span class="cert-category">Generative AI</span>
+        </div>
+        <a href="assets/certificates/elevance.pdf" target="_blank" class="cert-view-btn" title="View Certificate">
+          <i class="fas fa-eye"></i>
+        </a>
+        <div class="cert-badge"><i class="fas fa-check-circle"></i></div>
+      </div>
+
+      <div class="cert-card" data-aos="zoom-in" data-aos-delay="400">
+        <div class="cert-icon" style="background:linear-gradient(135deg,#10B981,#059669)">
+          <i class="fas fa-infinity"></i>
+        </div>
+        <div class="cert-content">
+          <h4>IBM Certification</h4>
+          <p>IBM</p>
+          <span class="cert-category">Technology</span>
+        </div>
+        <a href="assets/certificates/ibm.pdf" target="_blank" class="cert-view-btn" title="View Certificate">
+          <i class="fas fa-eye"></i>
+        </a>
+        <div class="cert-badge"><i class="fas fa-check-circle"></i></div>
+      </div>
+
+      <div class="cert-card" data-aos="zoom-in" data-aos-delay="450">
+        <div class="cert-icon" style="background:linear-gradient(135deg,#8B5CF6,#EC4899)">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <div class="cert-content">
+          <h4>Coursera Certificate I</h4>
+          <p>Coursera</p>
+          <span class="cert-category">Online Learning</span>
+        </div>
+        <a href="assets/certificates/coursera1.pdf" target="_blank" class="cert-view-btn" title="View Certificate">
+          <i class="fas fa-eye"></i>
+        </a>
+        <div class="cert-badge"><i class="fas fa-check-circle"></i></div>
+      </div>
+
+      <div class="cert-card" data-aos="zoom-in" data-aos-delay="500">
+        <div class="cert-icon" style="background:linear-gradient(135deg,#0056D2,#0095DA)">
+          <i class="fas fa-book-open"></i>
+        </div>
+        <div class="cert-content">
+          <h4>Coursera Certificate II</h4>
+          <p>Coursera</p>
+          <span class="cert-category">Online Learning</span>
+        </div>
+        <a href="assets/certificates/coursera2.pdf" target="_blank" class="cert-view-btn" title="View Certificate">
+          <i class="fas fa-eye"></i>
+        </a>
+        <div class="cert-badge"><i class="fas fa-check-circle"></i></div>
+      </div>
+
+      <div class="cert-card" data-aos="zoom-in" data-aos-delay="550">
+        <div class="cert-icon" style="background:linear-gradient(135deg,#F59E0B,#EF4444)">
+          <i class="fas fa-bolt"></i>
+        </div>
+        <div class="cert-content">
+          <h4>Be10x Certification</h4>
+          <p>Be10x</p>
+          <span class="cert-category">Technology</span>
+        </div>
+        <a href="assets/certificates/be10x.pdf" target="_blank" class="cert-view-btn" title="View Certificate">
+          <i class="fas fa-eye"></i>
+        </a>
+        <div class="cert-badge"><i class="fas fa-check-circle"></i></div>
+      </div>
+
+      <div class="cert-card" data-aos="zoom-in" data-aos-delay="600">
+        <div class="cert-icon" style="background:linear-gradient(135deg,#06B6D4,#4F46E5)">
+          <i class="fas fa-award"></i>
+        </div>
+        <div class="cert-content">
+          <h4>Lectera Certificate</h4>
+          <p>Lectera</p>
+          <span class="cert-category">Professional Development</span>
+        </div>
+        <a href="assets/certificates/lectera.pdf" target="_blank" class="cert-view-btn" title="View Certificate">
+          <i class="fas fa-eye"></i>
+        </a>
+        <div class="cert-badge"><i class="fas fa-check-circle"></i></div>
+      </div>
+
+    </div>
+
+    <!-- Achievements Banner -->
+    <div class="achievements-banner" data-aos="fade-up" data-aos-delay="100">
+      <div class="achievement-item">
+        <i class="fas fa-award"></i>
+        <div>
+          <strong>12+ Certifications</strong>
+          <span>Across AI, Cloud, Data Science &amp; more</span>
+        </div>
+      </div>
+      <div class="achievement-divider"></div>
+      <div class="achievement-item">
+        <i class="fas fa-star"></i>
+        <div>
+          <strong>8.5 CGPA</strong>
+          <span>Maintained during internships</span>
+        </div>
+      </div>
+      <div class="achievement-divider"></div>
+      <div class="achievement-item">
+        <i class="fas fa-users"></i>
+        <div>
+          <strong>100+ Students</strong>
+          <span>Trained in Agentic AI Bootcamp</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     CONTACT SECTION
+═══════════════════════════════════════ -->
+<section id="contact" class="section section-alt">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-tag">Get In Touch</span>
+      <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+      <div class="section-line"></div>
+      <p class="section-subtitle">Open to internships, collaborations, and exciting opportunities</p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Info -->
+      <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+        <h3>Ready to Work Together?</h3>
+        <p>
+          I'm actively seeking internship opportunities in AI, Data Science, and Python
+          Development. Whether you have a project idea, a role opening, or just want to
+          talk tech — I'd love to hear from you!
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:mohanapriyag143@gmail.com" class="contact-link-item" id="contactEmail">
+            <div class="contact-link-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <span class="contact-link-label">Email</span>
+              <span class="contact-link-value">mohanapriyag143@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+919366072931" class="contact-link-item" id="contactPhone">
+            <div class="contact-link-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <span class="contact-link-label">Phone</span>
+              <span class="contact-link-value">+91 93660 72931</span>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/mohanapriya-g" target="_blank" rel="noopener" class="contact-link-item" id="contactLinkedIn">
+            <div class="contact-link-icon" style="background:linear-gradient(135deg,#0A66C2,#0077B5)"><i class="fab fa-linkedin-in"></i></div>
+            <div>
+              <span class="contact-link-label">LinkedIn</span>
+              <span class="contact-link-value">linkedin.com/in/mohanapriya-g</span>
+            </div>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noopener" class="contact-link-item" id="contactGitHub">
+            <div class="contact-link-icon" style="background:linear-gradient(135deg,#24292F,#57606A)"><i class="fab fa-github"></i></div>
+            <div>
+              <span class="contact-link-label">GitHub</span>
+              <span class="contact-link-value">github.com/mohanapriya</span>
+            </div>
+          </a>
+          <div class="contact-link-item location">
+            <div class="contact-link-icon" style="background:linear-gradient(135deg,#EF4444,#DC2626)"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <span class="contact-link-label">Location</span>
+              <span class="contact-link-value">Coimbatore, Tamil Nadu, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="contact-form-wrapper" data-aos="fade-left" data-aos-delay="100">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contactName">Your Name</label>
+              <input type="text" id="contactName" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="contactEmail">Your Email</label>
+              <input type="email" id="contactEmail" name="email" placeholder="john@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="contactSubject">Subject</label>
+            <input type="text" id="contactSubject" name="subject" placeholder="Internship Opportunity / Project Collaboration" />
+          </div>
+          <div class="form-group">
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" name="message" rows="5" placeholder="Tell me about the opportunity or how we can collaborate..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i>
+            Message sent! I'll get back to you within 24 hours.
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">MPG<span>.</span></div>
+        <p class="footer-tagline">
+          Emerging AI &amp; Data Science practitioner turning ideas into intelligent systems
+          and training tomorrow's tech leaders.
+        </p>
+        <div class="footer-social">
+          <a href="https://linkedin.com/in/mohanapriya-g" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:mohanapriyag143@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#bootcamp">Bootcamps</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>More</h4>
+        <ul>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><i class="fas fa-envelope"></i> mohanapriyag143@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +91 93660 72931</p>
+        <p><i class="fas fa-map-marker-alt"></i> Coimbatore, Tamil Nadu</p>
+        <p><i class="fab fa-linkedin-in"></i> linkedin.com/in/mohanapriya-g</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Mohana Priya G. Crafted with <i class="fas fa-heart"></i> and a passion for technology.</p>
+      <p>Designed to impress. Built to perform.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Scroll To Top -->
+<button id="scrollTop" class="scroll-top" aria-label="Scroll to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- ═══════════════════════════════════════
+     SCRIPTS
+═══════════════════════════════════════ -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/dist/typed.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
