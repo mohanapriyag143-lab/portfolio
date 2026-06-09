@@ -270,22 +270,26 @@ function initCounters() {
       const el     = entry.target;
       const target = parseInt(el.getAttribute('data-target'), 10);
       const suffix = el.getAttribute('data-suffix') || '';
-      const duration = 1800;
-      const step     = Math.ceil(target / (duration / 16));
+      const duration = 1500;
+      const steps   = 60;
+      const stepVal  = target / steps;
       let current    = 0;
+      let count      = 0;
 
+      el.textContent = el.textContent;
       const timer = setInterval(() => {
-        current += step;
-        if (current >= target) {
+        count++;
+        current = Math.round(stepVal * count);
+        if (count >= steps || current >= target) {
           current = target;
           clearInterval(timer);
         }
         el.textContent = current + suffix;
-      }, 16);
+      }, duration / steps);
 
       observer.unobserve(el);
     });
-  }, { threshold: 0.5 });
+  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
 
   counters.forEach(c => observer.observe(c));
 }
